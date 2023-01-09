@@ -3,7 +3,7 @@
 ### We provide four methods to implement this project.
 **``The detail discription can be viewed at this link.``**
 
-> For mehtod three and method four, you need to download the model weight in order to run the code, which can be download at this [link][https://drive.google.com/file/d/1OAMp327bKV47KRWz5aL9YpPZnS0RYQvE/view?usp=share_link].
+> For mehtod three and method four, you need to download the model weight in order to run the code, which can be download at this [link][1].
 
 ### How to run our code
 
@@ -23,3 +23,6 @@ python run_du.py -m model
 ```shell
 python run.py -m yao
 ```
+
+
+[1]: https://drive.google.com/file/d/1OAMp327bKV47KRWz5aL9YpPZnS0RYQvE/view?usp=share_link
