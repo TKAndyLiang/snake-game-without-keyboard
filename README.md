@@ -12,22 +12,24 @@ pip install -r requirements.txt
 For mehtod three and method four, you need to download the model weight in order to run the code, which can be download here: [link][1](for method three) and [link][2](for method four).
 
 ### How to run our code
+Wait until both the cv2 window and the gaming window show up, then click on the gaming window, the game will be ready to receive the signal.
+Make sure which camera you are using. If the cv2 window is all black or not correct, command -c can change the camera.
 
 + For method one
 ```shell
-python run.py -m yuan
+python run.py -m yuan -c 0
 ```
 + For method two
 ```shell
-python run_du.py -m direct
+python run_du.py -m direct -c 0
 ```
 + For method three
 ```shell
-python run_du.py -m model
+python run_du.py -m model -c 0
 ```
 + For method four
 ```shell
-python run.py -m yao
+python run.py -m yao -c 0
 ```
 
 [1]: https://drive.google.com/file/d/1piKJIC01_I6YVz0juqCiy3kJXS4JDZhx/view?usp=share_link
