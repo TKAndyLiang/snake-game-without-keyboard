@@ -22,9 +22,9 @@ def count():
 
 def detect():
     if args.alg == 'yuan':
-        os.system(f'python ./HandTrackModule_jiyuanran.py --camera{args.camera}')
+        os.system(f'python ./HandTrackModule_jiyuanran.py --camera {args.camera}')
     elif args.alg == 'yao':
-        os.system('python ./classifier.py')
+        os.system(f'python ./classifier.py --camera {args.camera}')
 
 def rec():
     if args.alg == 'yuan':
