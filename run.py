@@ -9,6 +9,7 @@ from argparse import ArgumentParser
 
 parser = ArgumentParser()
 parser.add_argument('-m', '--method', default='yuan', dest='alg', help='Different methods', type=str)
+parser.add_argument('-c', '--camera', default=0, type=int)
 args = parser.parse_args()
 
 TIMEOUT = 2
@@ -21,7 +22,7 @@ def count():
 
 def detect():
     if args.alg == 'yuan':
-        os.system('python ./HandTrackModule_jiyuanran.py')
+        os.system(f'python ./HandTrackModule_jiyuanran.py --camera{args.camera}')
     elif args.alg == 'yao':
         os.system('python ./classifier.py')
 
