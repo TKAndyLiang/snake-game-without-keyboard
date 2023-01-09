@@ -4,7 +4,11 @@ import time
 import pyautogui
 import os
 import numpy as np
+import argparse
 
+parser = argparse.ArgumentParser()
+parser.add_argument('--camera', type=int, default=0)
+args = parser.parse_args()
 
 class handDetector():
     def __init__(self, mode=False, maxHands=1, modelComplexity=1, detectionCon=0.5, trackCon=0.5):
@@ -53,7 +57,7 @@ def main():
     duration = 0.3
     start = time.time()
     MultiTime_lm = []
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(args.camera)
     detector = handDetector()
     direction_int = '4'
     if(not os.path.exists('./done.txt')):
