@@ -13,7 +13,7 @@ parser = argparse.ArgumentParser()
 parser.add_argument('--camera', type=int, default=0)
 args = parser.parse_args()
 
-model = torchvision.models.resnet50(pretrained=True)
+model = torchvision.models.resnet50(pretrained=False)
 num_classes = 5
 num_ftrs = model.fc.in_features
 model.fc = nn.Linear(num_ftrs, num_classes)
@@ -58,9 +58,7 @@ while cap.isOpened():
         pred_list = np.bincount(pred)
         if pred_list[true_dir] < 3:
             true_dir = 2
-
-        print(true_dir)
-        
+            
         if true_dir == 4:
             pyautogui.press('up')
         elif true_dir == 0:
