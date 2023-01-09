@@ -4,6 +4,7 @@
 >The project enviroment is under python version 3.9.15 with pytorch version 1.11.3 and CUDA version 11.3.
 >Please install the project dependency first.
 ```shell
+pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
 pip install -r requirements.txt
 ```
 **``The detail discription for those methods can be viewed at this link.``**
