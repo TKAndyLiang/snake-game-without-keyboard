@@ -1,9 +1,12 @@
 # Snake-game-without-keyboard
 
 ### We provide four methods to implement this project.
-The project enviroment is under python version 3.9.15 with pytorch version 1.11.3 and CUDA version 11.3
-<br/><br/>
-**``The detail discription can be viewed at this link.``**
+>The project enviroment is under python version 3.9.15 with pytorch version 1.11.3 and CUDA version 11.3.
+>Please install the project dependency first.
+```shell
+pip install -r requirements.txt
+```
+**``The detail discription for those methods can be viewed at this link.``**
 <br/><br/>
 For mehtod three and method four, you need to download the model weight in order to run the code, which can be download here: [link][1](for method three) and [link][2](for method four).
 
