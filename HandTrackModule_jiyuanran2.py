@@ -4,6 +4,7 @@ import time
 import os
 import numpy as np
 import pyautogui
+import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--camera', type=int, default=0)
