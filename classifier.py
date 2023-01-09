@@ -7,6 +7,7 @@ import torch.nn as nn
 import torchvision.transforms.functional as TF
 from PIL import Image
 import pyautogui
+import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument('--camera', type=int, default=0)
