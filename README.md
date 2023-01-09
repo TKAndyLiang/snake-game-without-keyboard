@@ -3,7 +3,7 @@
 ### We provide four methods to implement this project.
 **``The detail discription can be viewed at this link.``**
 
-> For mehtod three and method four, you need to download the model weight in order to run the code, which can be download at this [link][1](for method three) and [link][2](for method four).
+For mehtod three and method four, you need to download the model weight in order to run the code, which can be download here: [link][1](for method three) and [link][2](for method four).
 
 ### How to run our code
 
