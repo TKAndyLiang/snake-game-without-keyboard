@@ -9,6 +9,7 @@ from argparse import ArgumentParser
 
 parser = ArgumentParser()
 parser.add_argument('-m', '--method', default='direct', dest='alg', help='Different methods', type=str)
+parser.add_argument('-c', '--camera', default=0, type=int)
 args = parser.parse_args()
 
 TIMEOUT = 2
@@ -23,9 +24,9 @@ def count():
 
 def detect():
     if args.alg == 'direct':
-        os.system('python ./HandTrackModule_du_direct.py')
+        os.system(f'python ./HandTrackModule_du_direct.py --camera {args.camera}')
     elif args.alg == 'model':
-        os.system('python ./HandTrackModule_du.py')
+        os.system(f'python ./HandTrackModule_du.py --camera {args.camera}')
 
 def rec():
     os.system('python ./receive_du.py')
