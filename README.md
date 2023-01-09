@@ -12,8 +12,8 @@ pip install -r requirements.txt
 For mehtod three and method four, you need to download the model weight in order to run the code, which can be download here: [link][1](for method three) and [link][2](for method four).
 
 ### How to run our code
-Wait until both the cv2 window and the gaming window show up, then click on the gaming window, the game will be ready to receive the signal.
-Make sure which camera you are using. If the cv2 window is all black or not correct, command -c can change the camera.
++ Pleace wait until both the cv2 window and the gaming window show up, then click on the gaming window, the game will be ready to receive the signal.
++ Make sure which camera you are using. If the cv2 window is all black or not correctly show up, the argument command **``-c``** can change the camera device on your desktop(default 0).
 
 + For method one
 ```shell
