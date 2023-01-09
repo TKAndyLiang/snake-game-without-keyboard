@@ -8,6 +8,10 @@ import torchvision.transforms.functional as TF
 from PIL import Image
 import pyautogui
 
+parser = argparse.ArgumentParser()
+parser.add_argument('--camera', type=int, default=0)
+args = parser.parse_args()
+
 model = torchvision.models.resnet50(pretrained=True)
 num_classes = 5
 num_ftrs = model.fc.in_features
@@ -16,7 +20,7 @@ model.load_state_dict(torch.load('last_weight_10.pth'))
 model.cuda()
 
 model.eval()
-cap = cv2.VideoCapture(0)
+cap = cv2.VideoCapture(args.camera)
 counter = 0
 frames = []
 result_list = []
