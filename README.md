@@ -15,6 +15,8 @@ For mehtod three and method four, you need to download the model weight in order
 + Pleace wait until both the cv2 window and the gaming window show up, then click on the gaming window, the game will be ready to receive the signal.
 + Make sure which camera you are using. If the cv2 window is all black or not correctly show up, the argument command **``-c``** can change the camera device on your desktop(default 0).
 
+<br/>
+
 + For method one
 ```shell
 python run.py -m yuan -c 0
