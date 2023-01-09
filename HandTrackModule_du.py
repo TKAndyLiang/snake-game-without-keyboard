@@ -8,7 +8,11 @@ import torch
 import torch.nn as nn
 from torch.utils.data import TensorDataset, DataLoader
 import torch.nn.functional as F
+import argparse
 
+parser = argparse.ArgumentParser()
+parser.add_argument('--camera', type=int, default=0)
+args = parser.parse_args()
 
 class MLP(nn.Module):
     def __init__(self, inc, outc):
@@ -84,7 +88,7 @@ def main():
     model.load_state_dict(ckpt_temp['model_state_dict'])
     model.eval()
 
-    cap = cv2.VideoCapture(0)
+    cap = cv2.VideoCapture(args.camera)
     detector = handDetector()
     direction_int = '4'
     if(not os.path.exists('./done.txt')):
