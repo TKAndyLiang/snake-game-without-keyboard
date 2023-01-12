@@ -17,19 +17,19 @@ For mehtod three and method four, you need to download the model weight in order
 
 <br/>
 
-+ For method one
++ For method one [demo video][https://youtu.be/fEIULEbItR0]
 ```shell
 python run.py -m yuan -c 0
 ```
-+ For method two
++ For method two [demo video][https://youtu.be/Uqw-957p3hk]
 ```shell
 python run_du.py -m direct -c 0
 ```
-+ For method three
++ For method three [demo video][https://youtu.be/j_IDteFhxGU]
 ```shell
 python run_du.py -m model -c 0
 ```
-+ For method four
++ For method four [demo video][https://youtu.be/gAEc_gp_bGc]
 ```shell
 python run.py -m yao -c 0
 ```
