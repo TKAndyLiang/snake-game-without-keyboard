@@ -40,4 +40,4 @@ python run.py -m yao -c 0
 [4]: https://youtu.be/Uqw-957p3hk
 [5]: https://youtu.be/j_IDteFhxGU
 [6]: https://youtu.be/gAEc_gp_bGc
-[7]: https://drive.google.com/file/d/1C6JxV3YIs_KnUhMO4V01gIq5F1S3yj_V/view?usp=share_link
+[7]: https://drive.google.com/file/d/1UEwYTjcsMonzC_oL_fLPpojRyGL4kIIg/view?usp=share_link
