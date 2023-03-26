@@ -7,7 +7,7 @@
 pip install torch==1.11.0+cu113 torchvision==0.12.0+cu113 torchaudio==0.11.0 --extra-index-url https://download.pytorch.org/whl/cu113
 pip install -r requirements.txt
 ```
-The detail discription for those methods can be viewed at this [link][7].
+The detail discription for those methods can be viewed at this [link][7]. 
 <br/><br/>
 For mehtod three and method four, you need to download the model weight in order to run the code, which can be download here: [link][1](for method three) and [link][2](for method four).
 
